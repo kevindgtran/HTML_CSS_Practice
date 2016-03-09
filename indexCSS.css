@@ -1,0 +1,278 @@
+/*.selector {declaraction}*/
+/*property: value;*/
+h3 a {
+  color: blue; /*link color*/
+}
+
+h3 a:hover {
+  color: red; /*hover over link affect*/
+}
+
+.blue {
+color: 	#1E90FF;
+}
+.orange {
+ color: #FF8C00;
+ }
+.green {
+ color: #8FBC8F;
+}
+.grey {
+  color: grey;
+  font-size: 13px;
+  font-weight: 300;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;;
+}
+h2 {
+  color: red;
+}
+fieldset {
+  display: inline;
+}
+#waterbottle {
+  font-style: italic;
+  color: #FF8C00;
+}
+.cupofcoffee {
+  font-weight: bold;
+  color: grey;
+}
+.topofdivsection {
+  color: #8FBC8F;
+}
+#header ul li {
+  display: inline;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 3px;
+}
+#maaaps {
+  color: #8B0000;
+}
+
+.kevin {
+border-radius: 500px;
+position: absolute;
+left: 40%;
+top: 80px;
+}
+
+.video {
+  border: 2px solid #FF8C00;
+}
+
+.haiku {
+  font-family: fantasy;
+  color: orange;
+}
+
+.bolder {
+  font-weight: bold;
+}
+
+z {
+  color: red;
+  font-family: 'Montserrat', sans-serif;
+}
+
+x {
+  font-style: italic;
+  color: green;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+k {
+  font-style: italic;
+  color: grey;
+  font-family: 'Amatic SC', cursive;
+  font-size: 27px;
+}
+
+.ExampleCSS1 {
+ background-color: #D3D3D3;
+ padding: 25px 70px;
+ margin: 20px;
+}
+
+.ExampleCSS1_h1 {
+  background-color: #00C78C;
+  padding: 15px;
+  color: white;
+}
+
+.ExampleCSS1_h3 {
+  background-color: #01C5BB;
+  padding: 15px;
+  opacity: 0.5;
+}
+
+.ExampleCSS1_p {
+  text-indent: 40px; /*indenting the first line of the paragraph*/
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+  padding: 15px;
+  text-shadow: 2px 2px 7px #111111;
+}
+
+.robotFont {
+  font-family: 'Lekton', sans-serif;
+  color: green;
+  background: black;
+  padding: 3px;
+  text-align: right;
+}
+
+.madScientist {
+  font-family: 'Denk One', sans-serif;
+  color: #b20000;
+  background: #6d8383;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 24px;
+  /*text-decoration: line-through; === For a line through effect*/
+}
+
+.summerTime {
+  font-family: 'Galindo', cursive;
+  color: #FCD116;
+  background: #7ec0ee;
+  border-radius: 25px;
+  padding: 2%;
+  margin: 0% 10%;
+  text-align: center;
+  /*padding-left: 2%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 675px;*/
+}
+
+.fancyText {
+  font-family: 'Fascinate Inline', cursive;
+  color: #e6c200;
+  background: black;
+  font-size: 20px;
+  padding: 15px;
+  border: 5px inset #e6c200;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.bigBox {
+  height: 300px;
+  width: 400px;
+  background-color: #ee3e80;
+}
+
+.smallBox {
+  height: 75%;
+  width: 75%;
+  background-color: #e1ddda;
+}
+
+td.lol {
+  min-width: 450px;
+  max-width: 650px;
+  text-align: left;
+  vertical-align: text-top;
+  padding: 5px;
+}
+
+.orangehighlighter {
+  border: 30px solid black;
+  color: green;
+  padding: 1%;
+  margin-right: 59%;
+}
+
+.customborder {
+border: 2px dotted black;
+margin-right: 90%;
+padding: 10px;
+}
+
+.doublelined {
+  border: 10px double red;
+  margin-right: 90%;
+  padding: 10px;
+}
+
+.groovin {
+  border: 10px groove #D3D3D3;
+  padding: 10px;
+  margin-right: 90%;
+}
+
+.lastone {
+  border: 10px outset #04c3df;
+  padding: 10px;
+  margin-right: 90%;
+}
+
+.colorborders {
+  border-style: solid;
+  border-color: red green blue yellow;
+  margin-right: 90%;
+  padding: 10px;
+}
+
+.centerbox {
+  margin-left: 30%;
+  margin-right: 30%;
+  border: thick #0f497b solid;
+  padding: 5px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #777777;
+}
+
+.blocktoinline1 {
+  border: 5px solid #295f48;
+  padding: 5px 15px;
+  display: inline;
+  background-color: #999999;
+  color: white;
+  box-shadow: 5px 5px 5px #777777;
+  margin: 5px 15px;
+  border-radius: 5px;
+}
+
+.blocktoinline2 {
+  border: 5px solid #8b475d;
+  padding: 5px 15px;
+  display: inline;
+  background-color: #999999;
+  color: white;
+  margin: 5px 15px;
+  box-shadow: 5px 5px 5px #777777;
+  border-radius: 5px;
+}
+
+.blocktoinline3 {
+  border: 5px solid #e34566;
+  padding: 5px 15px;
+  display: inline;
+  background-color: #999999;
+  color: white;
+  margin: 5px 15px;
+  box-shadow: 5px 5px 5px #777777;
+  border-radius: 5px;
+}
+
+.blocktoinline4 {
+  border: 5px solid #003b6f;
+  padding: 5px 15px;
+  display: inline;
+  background-color: #999999;
+  color: white;
+  margin: 5px 15px;
+  box-shadow: 5px 5px 5px #777777;
+  border-radius: 5px;
+}

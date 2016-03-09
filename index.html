@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="author" content="Kevin Tran">
+    <title>HTMLCSSBOOK</title>
+    <link rel="stylesheet" href="indexCSS.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lekton' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Galindo' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Fascinate+Inline' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+<h1><span class="blue">HTML</span> <span class="orange">&</span> <span class="green">CSS</span> <span class="grey">by Jon Duckett</span></h1><br><br><br><br><br><br><br><br><br>
+<img class="frame kevin" src="Me!.png" alt="" />
+<h3 id="top">Page Directory: <a href="#Links">Links</a> <a href="#Lists">Lists</a> <a href="#FontStyles">Font Styles</a> <a href="#images">Images</a> <a href="#Tables">Tables</a> <a href="#Forms">Forms</a> <a href="#extra_markup">Extra Markup</a> <a href="#css">CSS</a> <a href="#Text">Text</a> <a href="#Boxes">Boxes</a>      </h3>
+<hr />
+<hr />
+
+<h2 id="Boxes"><ins>Boxes</ins></h2>
+
+
+
+
+
+<p>This is an example of the display property (inline vs block)</p><br>
+<ul>
+  <li class="blocktoinline1">Home</li>
+  <li class="blocktoinline2">Menu</li>
+  <li class="blocktoinline3">Contact</li>
+  <li class="blocktoinline4">About</li>
+</ul><br>
+
+<ul class="boxlist">
+  <li class="centerbox">This box should be in the center of the page using margins &amp; have a shadow</li><br>
+  <li class="customborder">This is another example of border properties, shablam!</li>
+  <li class="doublelined">And... another!</li>
+  <li class="groovin">Yep... another!</li>
+  <li class="lastone">ok.. last one!</li>
+  <li class="colorborders">WAIT! different color borders?!?!?!</li>
+  <li class="orangehighlighter">Content: min-width, max-midth, min-height, max-height, overflow: hidden/ scroll, border thickness</li>
+</ul>
+<p>Example: min-width, max-width of text in screen</p>
+<tr>
+  <td><img src="coffeecup.png" alt="cup of coffee" height="150px" width="200"/></td>
+  <td class="lol">This is an example of min and max widths. This description should be on the right of the image and not change as the screen size is altered.</td>
+  <td>$3.50</td>
+</tr>
+
+<div class="bigBox">
+  <p class="smallBox">(example from book) The moose company pioneered the commercial manufacturing of modular voltage-controlled analog synthesizer systems in the early 1950&rsquo;s.</p>
+</div><br>
+<a href="#top"><ins>-Top of Page-</ins></a>
+<hr>
+<h2 id="Text"><ins>Text</ins></h2>
+<p class="fancyText">This font us super fancy. nuff said.</p>
+<p class="summerTime">An example of font types, this font reminds me of laying on the beach in summer time</p>
+<p class="madScientist">This is an example from Google Fonts, this one looks like the font for a mad scientist horror movie text!</p>
+<p class="robotFont">This is an example of different font types. This one looks like a comupter wrote it. </p>
+<a href="#top">-Top of Page-</a>
+<hr>
+<h2 id="css"><ins>CSS</ins></h2>
+<!-- color example on page 259 -->
+
+
+<!-- Example of using css class selectors and divs -->
+<div class="ExampleCSS1">
+  <body>
+    <h1 class="ExampleCSS1_h1">Example of Backgrounds within a div!</h1>
+    <h3 class="ExampleCSS1_h3">Adding multiple class selectors &amp; <ins>opacity!</ins></h3>
+    <p class="ExampleCSS1_p">
+      <strong><ins>(INDENTING)</ins></strong> Earth &ndash; Wiki &ndash; Earth gravitationally interacts with other objects in space, especially the Sun and the Moon. During one orbit around the Sun, Earth rotates about its own axis 366.26 times, creating 365.26 solar days or one sidereal year. Earth&rsquo;s axis of rotation is tilted 23.4&deg; away from the perpendicular of its orbital plane, producing seasonal variations on the planet&rsquo;s surface with a period of one tropical year  <ins><strong>(COLOR GRADIENTS &amp; TEXT-SHADOWING)</strong></ins>
+    </p>
+  </body>
+</div>
+
+<!-- practice using css attributes/ selectors  -->
+<p><span class="bolder">This Paragraph&#39;s an example of how to use class attributes <span class="haiku">&amp;</span> selectors on multiple elememts. I will <z>try</z> and write enough to make this a <x>full paragraph.</x> My attempt at a haiku. <k>&ldquo;cough, cough&rdquo;...</k> </span></p><p><span class="haiku">A glorious View. <br>Atop this boulder, I perch. <br>Time for a sandwich.</span></p>
+<a href="#top">-Top of Page-</a>
+<hr>
+<h2 id="extra_markup"><ins>Extra Markup</ins></h2>
+<!-- adding audio tag, same attributes as video tag - preload, autoplay, controls, etc. -->
+<audio controls>
+  <source src="Fireworks.mp3" type="audio/ogg">
+  <source src="Fireworks.mp3" type="audio/mpeg">
+</audio><br><br>
+
+<!-- optional attributes: preload, controls, autoplay, loop, none -->
+<p class="orange">Video Tag in HTML!!! <br>
+  <video class="video" src="minions.mp4" poster="minionsSelfie.jpg" width="450" height="350" controls preload="none"></video>
+</p><br>
+
+<p>Escape (Special) Characters: &lt; | &gt; | &amp; | &quot; | &cent; | &euro; | &copy; | &reg; | &trade; | &times; | &divide;</p><br>
+
+<p id=maaaps>Example of iframe!!! (inline frame of another website!!!)</p>
+  <!-- <iframe src="http://techcrunch.com/" width="350" height="300"></iframe><br><br> -->
+  <div class="topofdivsection">
+    <p>THIS IS AN EXAMPLE OF DIV's:</p> <p>WHICH ARE USED TO GROUP THINGS IN BLOCK (UP & DOWN) FORMAT. This text should be green.</p>
+  </div><br>
+<div id="header">
+<p>Example of header ID in a div :)</p>
+  <ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+</div><br/>
+<p>This is an example of a class atttribute</p>
+<p class="cupofcoffee">This should be bold and gray color. Class attributes = .(classname)</p><br>
+<p>This is testing the id attribute feature below</p>
+<p id="waterbottle">This font should be italisized and orange color. Also all ID's = # symbol!</p>
+<a href="#top">-Top of Page-</a>
+<hr />
+<h2 id="Forms"><ins>Forms</ins></h2>
+<form class="" action="index.html" method="post">
+  <label>Search:</label>
+  <input type="search" name="search" placeholder="Enter keyword">
+  <input type="button" value="Search">
+</form><br /><br />
+<form class="" action="index.html" method="post">
+  <label for="Departures">Departure Dates</label>
+  <input type="date" name="date">
+  <input type="Submit" value="Submit">
+</form><br />
+<form class="" action="index.html" method="post">
+  <p>Example of Form Validation</p>
+  <label for="username">Username:</label>
+  <input type="email" name="username" required="required"><br />
+  <label for="password">Password:</label>
+  <input type="password" name="password" value="" required="required"><br />
+  <input type="submit" value="Submit">
+</form><br /><br />
+<fieldset>
+  <legend>Contact Details</legend>
+    <label>Email:<br />
+      <input type="text" name="name" value=""></label><br />
+    <label>Mobile:<br />
+      <input type="text" name="name" value=""></label><br />
+    <label>Website URL<br />
+      <input type="text" name="name" value=""></label>
+</fieldset><br /><br />
+<form class="" action="index.html" method="post">
+  <p>Subscribe to my channel below!</p>
+  <input type="text" name="username" value="">
+  <input type="image" src="youtubesubscribe.jpg" width="100" height="27">
+</form>
+<br >
+<form class="" action="index.html" method="post">
+  <p>Subscribe to the email list</p>
+  <input type="text" name="email" value="jon@email.com">
+  <input type="submit" name="Subscribe" value="Subscribe">
+</form>
+<br >
+<form class="" action="index.html" method="post">
+<p>Upload Image:</p>
+  <input type="file" name="resume" value="">
+</form>
+<br>
+<form class="" action="index.html" method="post">
+<p>What are your favorite glasses?</p>
+  <select name="Glasses">
+    <option value="Empty"></option>
+    <option value="Oakley">Oakley</option>
+    <option value="Ray Ban">Ray Ban</option>
+    <option value="Coach">Coach</option>
+    <option value="Burberry">Burberry</option>
+    <option value="Ralph Lauren">Ralph Lauren</option>
+    <option value="Armani Exchange">Armani Exchange</option>
+    <option value="Other">Other</option>
+  </select>
+</form>
+<br >
+<p>Where do you get your coffee?</p>
+<input type="checkbox" name="coffee source" value="Starbucks"> Starbucks
+<input type="checkbox" name="coffee source" value="Philz Coffee"> Philz Coffee
+<input type="checkbox" name="coffee source" value="work" checked="checked"> Work (intuit)
+<input type="checkbox" name="coffee source" value="home"> Homemade
+<br ><br >
+<p>What is your favorite donut?</p>
+<input type="radio" name="type" value="all" checked="check"> Love them all!
+<input type="radio" name="type" value="Glazed"> Glazed
+<input type="radio" name="type" value="Chocolate"> Chocolate
+<input type="radio" name="type" value="Old fashion"> Old Fashion
+<br ><br >
+<p>Tell us a bit about yourself, your friends would describe you as</p> <textarea name="comments" rows="8" cols="40">example - Kevin is very hardworking and loves donuts!</textarea>
+<p>Username: <input type="text" name="username" value=""></p>
+<p>Password: <input type="password" name="password" value=""></p>
+<br ><a href="#top">-Top of Page-</a>
+<hr />
+<h2 id="Tables"><ins>Tables</ins></h2>
+<table>
+  <tr>
+    <th></th>
+    <th>9am</th>
+    <th>10am</th>
+    <th>11am</th>
+    <th>12pm</th>
+  </tr>
+  <tr>
+    <th>Monday:</th>
+    <td>Morning Meditation</td>
+    <td colspan="2">Work</td>
+    <td>Lunch meeting with Richard</td>
+  </tr>
+  <tr>
+    <th>Tuesday:</th>
+    <td>Morning Workout</td>
+    <td colspan="2">Work</td>
+    <td>Lunch with Tom</td>
+  </tr>
+</table>
+<br />
+<table>
+  <tr>
+    <th></th>
+    <th scope="col">Cookies Sold.</th>
+    <th scope="col">Ice Cream Sold.</th>
+    <th scope="col">Ice Cream Sandwiches Sold.</th>
+  <tr>
+    <th scope="row">Monday:</th>
+    <td>15</td>
+    <td>15</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <th scope="row">Tuesday:</th>
+    <td>45</td>
+    <td>60</td>
+    <td>45</td>
+  </tr>
+  <tr>
+    <th scope="row">Wednesday:</th>
+    <td>60</td>
+    <td>90</td>
+    <td>90</td>
+  </tr>
+</tr>
+</table><br />
+<a href="#top">-Top of Page-</a>
+<hr />
+<h2 id=images><ins>Images</ins></h2>
+<h4>Image placement</h4>
+<p>
+  <img src="car.jpg" alt="Astin Martin" title="My Future Car" width="250" height="180"/>
+  <img src="House.jpg" alt="Luxury Home" title="My Future Home" width="250" height="180"/>
+  <img src="Chair.jpg" alt="Eames Chair" title="My Future Chair" width="250" height="180"/>
+</p>
+<figure>
+  <img src="grand-canyon.jpg" alt="The Grand Canyon" width="400" height="500"/><figcaption>THESE GUYS ARE CRAZY!</figcaption>
+  <br />
+  <img src="IMG_1115.jpg" alt="Camping with Triathlon Team" title="Great shot of the team huddled around the camp fire by Steve" width="400" height="500"/>
+  <br />
+  <figcaption>Tri Valley Triathlon Club huddled around the camp fire preparing for the Pacific Grove Tritahlon, where 4 members Kevin Tran, Aubrey Nolan, Leal Hamilton and Tony Farley plan on competing for the podium.#GoTVTC</figcaption>
+</figure>
+<br /><br /><a href="#top">-Top of Page-</a>
+<hr />
+<h2 id=Links><ins>Links</ins></h2>
+<h4><ins>Linking to specific part of page</ins></h4>
+<ol>
+  <li>a tag with #attribute (link to part of page)</li>
+  <li>tag id=link</li>
+  <li>boom.</li>
+</ol>
+<h4>Open new web browser link</h4>
+  <a href="http://techcrunch.com/" "target=_blank">Techcrunch.com</a><br />
+  <a href="http://www.forbes.com/home_usa/" target="_blank">Forbes.com</a><br />
+  <a href="http://songza.com/" target="_blank">Songza.com</a>
+<h4>Email Link</h4>
+<ul>
+  <li><a href="mailto:kevin_tran@intuit.com">Email my work</a></li>
+  <li><a href="mailto:kevin2005tran@gmail.com">Email my gmail</a></li>
+  <li><a href="mailto:senkev05lywao@yahoo.com">Email to my spam folder</a></li>
+</ul>
+<h4>Relative Links</h4>
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About Us</a></li>
+  <li><a href="#">Products</a></li>
+  <li><a href="#">Contact info</a></li>
+</ul>
+<h4>Absolute Links</h4>
+<h5>Top travel sites</h5>
+<ul>
+  <li><a href="https://www.expedia.com/">Expedia</a></li>
+  <li><a href="https://www.travelocity.com/">Travelocity</a></li>
+  <li><a href="http://www.kayak.com/">Kayak</a></li>
+</ul>
+  <h5>Here's a link to airbnb's home page</h5>
+  <a href="https://www.airbnb.com/">airbnb.com</a><br /><br />
+  <p><a href="#top">-Top of Page-</a></p>
+<hr />
+<h2 id="Lists"><ins>Lists</ins></h2>
+<h5>Camping list (Nested lists)</h5>
+<ul>
+  <li>Tent</li>
+  <li>headlamp</li>
+  <li>wood</li>
+  <li>Backpack</li>
+    <ul>
+      <li>compass</li>
+      <li>flint</li>
+      <li>utensils</li>
+      <li>knife</li>
+    </ul>
+</ul>
+  <dl>
+    <dt>Bioton</dt>
+    <dd>Vitamin that helps the growth of hair, skin and nails.</dd>
+    <dd>Can be found at most supermarkets and retail stores ie Target, Safeway, etc.</dd>
+  </dl><br /><br />
+  <a href="#top">-Top of Page-</a>
+<hr />
+<h2 id=FontStyles><ins>Font Styles</ins></h2>
+  <p>Example code <b>Example</b></p>
+  <p>Inside a product desciption you might see some <i>key features</i></p>
+  <p>December 26<sup>th</sup> 2015 <em>Merry Christmas Everyone!</em></p><br />
+<strong>4 main ingredients in beer</strong><br />
+  <q>First rule of homebrewing is to open a beer first</q> - Kevin T.
+    <ul>
+      <li>h<sub>2</sub>0</li>
+      <li>wheat</li>
+      <li>yeast</li>
+      <li>hops</li>
+      </ul>
+<strong><i>Fun Fact</i></strong>
+  <p>The earth<br />Gets 100 tons heavier everyday</b><br />Due to falling space dust<br /></p>
+  <p><abbr title="National aeronoutic and space administration">NASA</abbr> creates some really kool stuff!</p>
+  <a href="web address">NASA.com</a><br />
+  <p>The poster said <ins>Do Not Enter</ins> NOT <del>We're open, come on in!</del></p>
+  <p>Mac Book Pro Laptop<br /><s>$1500</s><br />Now only $999.00</p>
+<a href="#top">-Top of page-</a>
+  </body>
+</html>
