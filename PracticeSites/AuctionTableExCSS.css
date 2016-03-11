@@ -1,0 +1,33 @@
+body {
+  font-family: 'Linden Hill', serif;
+  color: #111111;
+}
+
+table {
+  width: 600px;
+  border: 1px solid black;
+}
+
+th {
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top: 1px solid #bdbdbd;
+  border-bottom: 2px solid black;
+  padding-top: 9px;
+  padding-bottom: 4px;
+  font-size: 90%;
+  background-color: #66b266;
+}
+
+td {
+  padding: 7px 10px 10px 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #e8d9c5;
+}
+
+.money {
+  text-align: right;
+}

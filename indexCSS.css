@@ -276,3 +276,48 @@ padding: 10px;
   box-shadow: 5px 5px 5px #777777;
   border-radius: 5px;
 }
+
+.romannumerals {
+  list-style-type: lower-roman;
+  border: 5px solid #fe6c14;
+  margin-right: 80%;
+  border-radius: 10px;
+}
+
+.romannumerals li {
+  text-decoration: underline;
+}
+
+.alphabetlist {
+  list-style-type: upper-alpha;
+  border: 1px solid green;
+  margin-right: 80%;
+  background-color: #ffffcc;
+}
+ .alphabetlist li {
+   margin: 10px;
+ }
+
+
+.BBQchecklist {
+  list-style-type: circle;
+  border: 5px groove red;
+  margin-right: 80%;
+  background-color: grey;
+  color: #7f0000;
+}
+
+.BBQchecklist li {
+  margin: 10px;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 2px 0px 2px 10px;
+}
+
+.practicetablelinks {
+  list-style-type: square;
+}
+
+.practicetablelinks a {
+  color: #FF69B4;
+}
