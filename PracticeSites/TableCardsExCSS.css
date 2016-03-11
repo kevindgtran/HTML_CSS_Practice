@@ -1,0 +1,21 @@
+h1 {
+  font-family: 'Monoton', cursive;
+  font-weight: 200;
+  background-color: #FFD700;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 70%;
+}
+
+td {
+  padding: 30px;
+  border: 5px solid grey;
+  background-color: #ff3232;
+  color: white;
+  font-size: 20px;
+}
+
+table {
+  margin-left: 9%;
+}
