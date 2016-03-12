@@ -1,0 +1,92 @@
+h1  {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  margin-right: 31%;
+  background-color: #ede1d1;
+  padding: 10px 0px 15px 10px;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+th {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  text-align: left;
+}
+
+.secondlines {
+  font-weight: bold;
+  margin: 7px 0px 7px 5px;
+}
+
+li {
+  list-style: circle;
+}
+
+table {
+  margin-left: 5px;
+  border-spacing: 0px;  /*THIS CONSENSES/ ERASES THE BORDER SPACE AROUND EACH BOX WITHIN THE TABLE*/
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 5px 30px 5px 10px;
+  background-color: #c3d9ee;
+}
+
+th, td {
+  text-align: left;
+  border-top: 1px solid #f1f8fe;
+  border-right: 1px solid #cbd2d8;
+  border-bottom: 1px solid #cbd2d8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.TheVeryTop {
+  color: white;
+}
+
+.Cities{
+  background-color: #83b4dc;
+  border-right: #cbd2d8;
+  text-shadow: 1px 1px 1px #ffffff;
+  border-bottom: 2px solid #18497f;
+  text-align: center;
+  font-size: 18px;
+}
+
+fieldset {
+  margin-right: 74%;
+  border: 1px solid #cbd2d8;
+  margin-left: 5px;
+}
+
+input[type="text"]{
+  width: 150px;
+  margin-left: 28%;
+}
+
+select[name="cities"]{
+  margin-left: 11%;
+}
+
+.RadioButtons{
+  display: inline;
+  margin-left: 11%;
+}
+
+input[type="button"]{
+  margin-left: 20%;
+  background-color: #329932;
+  padding: 5px 6px 5px 6px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  margin-top: 0px;
+}

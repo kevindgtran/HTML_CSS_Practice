@@ -3,44 +3,47 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="author" content="Kevin Tran">
+    <link rel="stylesheet" href="PoetryWorkshopsEXCSS.css" media="screen" title="no title" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
     <title>Poetry Workshops</title>
   </head>
   <body>
     <h1>Poetry Workshops</h1>
-    <h4>We will be conducting a number of poetry workshops and symposiums throughout the year.</h4>
-    <h4>Please note that the following events are free to members:</h4>
+    <p class="secondlines">We will be conducting a number of poetry workshops and symposiums throughout the year.</p>
+    <p class="secondlines">Please note that the following events are free to members:</p>
     <ul>
       <li>A Poetic Perspective</li>
       <li>Walt Whitman at War</li>
       <li>Found Poems and Outsider Poetry</li>
     </ul>
     <table>
-      <tr>
-        <td></td>
-        <td>New York</td>
-        <td>Chicago</td>
-        <td>San Franscisco</td>
+      <tr class="TheVeryTop">
+        <th class="Cities"></th>
+        <td class="Cities">New York</td>
+        <td class="Cities">Chicago</td>
+        <td class="Cities">San Franscisco</td>
       </tr>
       <tr>
-        <td>A Poetic Perspective</td>
+        <th>A Poetic Perspective</th>
         <td>Sat, 4 Feb 2012 11am &ndash; 2pm</td>
         <td>Sat, 3 Mar 2012 11am &ndash; 2pm</td>
         <td>Sat, 17 Mar 2012 11am &ndash; 2pm</td>
       </tr>
       <tr>
-        <td>Walt Whitman at War</td>
+        <th>Walt Whitman at War</th>
         <td>Sat, 7 Apr 2012 11am &ndash; 1pm</td>
         <td>Sat, 5 May 2012 11am &ndash; 1pm</td>
         <td>Sat, 19 May 2012 11am &ndash; 1pm</td>
       </tr>
       <tr>
-        <td>Found Poems &amp; Outsider Poetry</td>
+        <th>Found Poems &amp; Outsider Poetry</th>
         <td>Sat, 9 Jun 2012 11am &ndash; 2pm</td>
         <td>Sat, 7 Jul 2012 11am &ndash; 2pm</td>
         <td>Sat, 21 Jul 2012 11am &ndash; 2pm</td>
       </tr>
       <tr>
-        <td>Natural Death: An Exploration</td>
+        <th>Natural Death: An Exploration</th>
         <td>Sat, 4 Aug 2012 11am &ndash; 4pm</td>
         <td>Sat, 8 Sep 2012 11am &ndash; 4pm</td>
         <td>Sat, 15 Sep 2012 11am &ndash; 4pm</td>
@@ -48,32 +51,25 @@
     </table>
 <fieldset>
   <legend>Register your interest</legend>
-  <p>Your name:      <input type="text" name="name" value=""><br>
-  Your email:        <input type="text" name="name" value=""><br>
+  <p>Your name:     <input type="text" name="name" value=""><br>
+     Your email:            <input type="text" name="name" value=""><br>
 <form class="" action="index.html" method="post">
 Your closest center:
 <select name="cities">
-  <option value="ny">New York</option>
+  <option value="ny">New York, NY</option>
+  <option value="sf">San Francisco, CA</option>
+  <option value="sj">San Jose, CA</option>
+  <option value="lv">Los Angeles, CA</option>
 </select>
-</form></p>
-
-
-  <!-- <form class="" action="index.html" method="post">
-  <p>What are your favorite glasses?</p>
-    <select name="Glasses">
-      <option value="Empty"></option>
-      <option value="Oakley">Oakley</option>
-      <option value="Ray Ban">Ray Ban</option>
-      <option value="Coach">Coach</option>
-      <option value="Burberry">Burberry</option>
-      <option value="Ralph Lauren">Ralph Lauren</option>
-      <option value="Armani Exchange">Armani Exchange</option>
-      <option value="Other">Other</option>
-    </select>
-  </form> -->
-
-</fieldset>
-
+</form><br>
+  Are you a member?
+  <div class="RadioButtons">
+  <input type="radio" name="name" value=""> Yes
+  <input type="radio" name="name" value=""> No
+  </div>
+</p>
+</fieldset><br>
+<input type="button" name="name" value="Register">
 
   </body>
 </html>
