@@ -1,0 +1,16 @@
+body {
+  width: 700px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+blockquote {
+  float: right;
+  width: 250px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 7px 10px;
+  background: #5b965b;
+  margin: 0px 0px 10px 10px;
+  font-style: italic;
+}
