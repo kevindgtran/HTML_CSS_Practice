@@ -321,3 +321,11 @@ padding: 10px;
 .practicetablelinks a {
   color: #FF69B4;
 }
+
+.PracticePositionLinks {
+  list-style: upper-roman;
+}
+
+.PracticePositionLinks a {
+  color: #6499be;
+}

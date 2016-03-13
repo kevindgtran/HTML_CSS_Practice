@@ -1,0 +1,14 @@
+body {
+  width: 700px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+h1 {
+  position: relative;
+  left: 300px;
+  background-color: #5b965b;
+  padding: 10px;
+  top: 30px;
+  text-align: center;
+}

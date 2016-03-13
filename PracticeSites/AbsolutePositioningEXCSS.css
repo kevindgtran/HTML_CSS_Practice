@@ -1,0 +1,15 @@
+
+body {
+  width: 700px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+h1 {
+  position: absolute;
+  top: 30px;
+  left: 300px;
+  background-color: #5b965b;
+  padding: 10px;
+  text-align: center;
+}
