@@ -1,0 +1,22 @@
+body {
+  width: 950px;
+}
+
+p {
+  background-color: #008080;
+  width: 300px;
+  float: left;
+  margin: 3px 3px 3px 6px;
+  border-radius: 7px;
+  padding: 3px;
+}
+
+.fourth {
+  clear: left;
+}
+
+.Box {
+  border: 10px solid #e34234;
+  overflow: auto;
+  width: 100%;
+}
