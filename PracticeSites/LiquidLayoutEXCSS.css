@@ -32,30 +32,27 @@ li {
   margin: 1%;
 }
 
-@media (max-width: 1200px) {
-  .footer {
+@media (max-width:1300px) {
+  .content {
     background-color: red;
-    top: 1000px;
-    left: 1000px;
   }
 }
 
-
-@media (max-width: 1200px) {
-.column3 {
-  background-color: #6195a0;
+@media (max-width: 1100px) {
+.column1 {
+  background-color: #743d74;
 }
 }
 
 @media (max-width: 900px) {
 .column2 {
-  background-color: #f0aa17;
+  background-color: #6195a0;
 }
 }
 
 @media (max-width: 600px) {
-.column1 {
-  background-color: #743d74;
+.column3 {
+  background-color: #f0aa17;
 }
 }
 
