@@ -33,12 +33,21 @@ li {
 }
 
 @media (max-width: 1200px) {
+  .footer {
+    background-color: red;
+    top: 1000px;
+    left: 1000px;
+  }
+}
+
+
+@media (max-width: 1200px) {
 .column3 {
   background-color: #6195a0;
 }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
 .column2 {
   background-color: #f0aa17;
 }
