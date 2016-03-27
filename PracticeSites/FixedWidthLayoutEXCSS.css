@@ -1,0 +1,38 @@
+body {
+  width: 960px;
+  margin: 10px auto;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: center;
+  border: 1px solid green;
+}
+
+.everything {
+  overflow: auto;
+  height: 100%;
+}
+
+h1  {
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+a {
+  color: black;
+}
+
+.nav, .content, .footer{
+  background-color: #D3D3D3;
+  padding: 10px;
+  margin: 10px;
+}
+
+.column1, .column2, .column3 {
+  background-color: #D3D3D3;
+  width: 300px;
+  float: left;
+  margin: 10px 10px 10px 10px;
+}

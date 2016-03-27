@@ -1,15 +1,16 @@
 
+
 .column1of2 {
   /*border: 1px solid black;*/
   float: left;
-  width: 620px;
-  margin: 0px 10px 10px 10px;
+  width: 700px;
+  margin: 0px 10px 10px 150px;
   /*color: green;*/
 }
 
 .column2of2 {
   float: left;
-  width: 300px;
+  width: 200px;
   margin: 0px 10px 10px 10px;
 }
 
