@@ -329,3 +329,32 @@ padding: 10px;
 .PracticePositionLinks a {
   color: #6499be;
 }
+
+.LargeFlower {
+  width: 500px;
+  height: 400px;
+}
+
+.MediumFlower {
+  width: 350px;
+  height: 250px;
+}
+
+.SmallFlower {
+  width: 150px;
+  height: 100px;
+}
+
+.Imagebullets {
+  list-style: square;
+  color: #794044;
+}
+
+.ImageLinks {
+ text-decoration: none;
+ color: #008000;
+}
+
+.ImageLinks:hover {
+  text-decoration: underline;
+}

@@ -10,7 +10,7 @@ font-weight: bold;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: underline; <!-- hover affect -->
 }
 
 .header {
@@ -39,5 +39,5 @@ h1  {
 }
 
 img {
-  box-shadow: 5px 5px 5px #777777;
+  box-shadow: 5px 5px 5px #777777; <!-- shadow behind each box/image -->
 }
