@@ -1,3 +1,31 @@
-h4  {
-  color: red;
+body {
+  width: 90%;  /* Fluid layout for more responsive design */
+}
+
+.align-left {
+  float: left;   /* floating image to left of next element (p) */
+  margin-right: 10px;
+}
+
+.align-right {
+  float: right;  /* floating image to the right of next element (p)  */
+}
+
+.pinky {   /* setting property and value to second class */
+  width: 350px;
+  height: 250px;
+}
+
+.center-align {
+  display: block; /* making the image and paragraph in block layout (top of one another)  */
+  margin: 0px auto;
+}
+
+.bottom {
+  position: relative; /* positioning bottom section relative to top section */
+  top: 250px;  /* pushing bottom section down 250px - to create a visual gap */
+}
+
+.centerP {
+  text-align: center;  /* Aligning the bottom text centered to the image  */
 }
