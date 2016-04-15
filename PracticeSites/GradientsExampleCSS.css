@@ -1,0 +1,27 @@
+.box1 {
+  height: 200px;
+  width: 70%;
+  background: -webkit-linear-gradient(red,yellow);
+  background: -moz-linear-gradient(red,yellow);
+}
+
+.box2 {
+  height: 200px;
+  width: 70%;
+  background: -webkit-linear-gradient(left,blue,green);
+  background: -mox-linear-gradient(left,blue,green);
+}
+
+.box3 {
+  height: 200px;
+  width: 70%;
+  background: -webkit-linear-gradient(red,yellow,green);
+  background: -mox-linear-gradient(red,yellow,green);
+}
+
+.box4 {
+  height: 200px;
+  width: 70%;
+  background: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  background: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+}

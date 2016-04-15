@@ -1,5 +1,5 @@
 body {
-  background-image: url("../Underwater.jpg");
+  background-image: url("../Underwater.jpg"); /*calling a file up one directory*/
 	background-attachment: fixed;
 	background-size:cover;
 	width:100%;
@@ -29,7 +29,10 @@ h1 {
   width: 40%;
 }
 
-.whitefont {
+h3, .whiteP {
   color: white;
   font-weight: bold;
+  background-color: #6dc066;
+  border-radius: 3px;
+  padding: 10px;
 }
