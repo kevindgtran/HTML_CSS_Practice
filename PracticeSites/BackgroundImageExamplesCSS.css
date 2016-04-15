@@ -1,17 +1,35 @@
 body {
-background-color: #cde7f0;
+  background-image: url("../Underwater.jpg");
+	background-attachment: fixed;
+	background-size:cover;
+	width:100%;
+	position:relative;
+/*background-image: url("----------"); format for background image*/
+/*background-repeat: repeat-x; images repeated only horizantally*/
+/*background-repeat: repeat-y; images repeat only vertically*/
 }
 
 h1 {
-  background-image: url("http://theycallmekevo.github.io/img_CloudPlatform/GreenFabric.jpg");
+  background-image: url("http://theycallmekevo.github.io/img_CloudPlatform/SeafoodPattern.jpg");
   border-radius: 3px;
   width: 300px;
   padding: 15px;
 }
 
-p {
-  background-image: url("http://theycallmekevo.github.io/img_CloudPlatform/BrickWall.jpg");
+.brickwall {
+  background-image: url("http://theycallmekevo.github.io/img_CloudPlatform/StarFlowerPatterns.jpg");
   border-radius: 3px;
   padding: 15px;
   width: 80%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.airplane {
+  width: 40%;
+}
+
+.whitefont {
+  color: white;
+  font-weight: bold;
 }
