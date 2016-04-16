@@ -36,3 +36,11 @@ h3, .whiteP {
   border-radius: 3px;
   padding: 10px;
 }
+
+img {
+  opacity: .7;
+}
+
+h4  {
+  font-size: 30px;
+}
