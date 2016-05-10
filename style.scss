@@ -1,0 +1,12 @@
+// Functions - If Else statements
+
+$size: 18px;
+
+.switch {
+  @if $size <= 16px {
+    font-family: Arial, sans-serif;
+    } @else {
+    font-family: Helvetica, sans-serif;
+    }
+  font-size: $size;
+}
