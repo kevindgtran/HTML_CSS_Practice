@@ -1,12 +1,65 @@
-// Functions - If Else statements
+//// Functions - If Else statements
 
 $size: 18px;
 
 .switch {
+  font-size: $size;
   @if $size <= 16px {
     font-family: Arial, sans-serif;
-    } @else {
+  } @else {
     font-family: Helvetica, sans-serif;
-    }
-  font-size: $size;
+  }
 }
+
+//// Functions - Else if statements
+
+$size: 18px;
+
+.switch {
+  font-size: $size;
+  @if $size <= 16px {
+    font-family: Arial, sans-serif;
+  } @else if $size <= 24px {
+  	font-family: Georgia, serif;
+  }
+		@else {
+    font-family: Helvetica, sans-serif;
+  }
+}
+
+//// @mixin and @include if else statement
+
+@mixin family($size){
+  font-size: $size;
+  @if $size <= 16px {
+    font-family: Arial, sans-serif;
+  } @else if $size <= 24px {
+    font-family: Georgia, serif;
+  } @else {
+    font-family: Helvetica, sans-serif;
+  }
+ }
+.switch {
+	@include family(18px); // calling the mixin family, passing 18px as the argument.
+  }
+
+//// @each
+
+.tool-socket {
+  background: url("socket.png") no-repeat; }
+
+.tool-wrench {
+  background: url("wrench.png") no-repeat; }
+
+.tool-bolt {
+  background: url("bolt.png") no-repeat; }
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+$tools: socket wrench bolt;
+
+@each $tool in $tools {
+  .tool-#{$tool} {
+    background: url('#{$tool}.png') no-repeat;
+    }
+  }
