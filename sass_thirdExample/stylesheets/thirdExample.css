@@ -1,0 +1,52 @@
+/* line 1, ../sass/thirdExample.scss */
+body {
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.4;
+  color: gray;
+}
+
+/* line 9, ../sass/thirdExample.scss */
+.monospace {
+  font-family: Monaco, monospace;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* line 16, ../sass/thirdExample.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: black;
+}
+
+/* line 21, ../sass/thirdExample.scss */
+.superscript {
+  top: -0.5em;
+}
+
+/* line 22, ../sass/thirdExample.scss */
+.subscript {
+  bottom: -0.25em;
+}
+
+/* line 24, ../sass/thirdExample.scss */
+.block-margins {
+  margin: 0.5rem 0 1rem;
+}
+
+/* line 28, ../sass/thirdExample.scss */
+.blockquote {
+  border-left: 3px solid silver;
+  color: DeepPink;
+  padding-left: 1.5rem;
+  font-style: italic;
+}
+
+/* line 35, ../sass/thirdExample.scss */
+.large-blockquote {
+  font-size: 1.3em;
+  line-height: 1.4;
+  margin: 2rem 0;
+}
