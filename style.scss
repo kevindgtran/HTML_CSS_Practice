@@ -119,3 +119,56 @@ $size: 18px;
 .switch {
   @include family (18px);
   }
+
+//@each derivitive, list variable
+$tools: socket wrench bolt;
+
+@each $tool in $tools {
+  .tool-#{$tool} {
+    background: url('#{$tool}.png') no-repeat;
+    }
+  }
+
+// .tool-socket {
+//   background: url('socket.png') no-repeat;
+// }
+// .tool-wrench {
+//   background: url('wrench.png') no-repeat;
+// }
+// .tool-bolt {
+//   background: url('bolt.png') no-repeat;
+// }
+
+// Converting @if & % operator with @while derivitive
+$i: 1; //i variable initialized to 1
+
+@while $i <= 7 { //@while from 1 through 7
+  .row-#{$i} {
+		background: #ccc;
+   	height: $i * 10px;
+  }
+$i: $i + 2;
+}
+
+// @for $i from 1 through 7 {
+//   @if $i % 2 != 0 {
+//     .row-#{$i} {
+//       background: #ccc;
+//       height: $i * 10px;
+//     }
+//   }
+// }
+
+//Declaring a variable with a numeral value, then subtracting width of two elements by said variable
+$gutter: 20px;
+
+.factory {
+  background: #fff;
+  margin-right: $gutter;
+  width: 600px - $gutter;
+}
+.highrise {
+  background: #797979;
+  margin-right: $gutter;
+  width: 300px - $gutter;
+}
