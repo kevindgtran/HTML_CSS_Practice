@@ -75,3 +75,16 @@ $tools: socket wrench bolt;
   width: 500px;
   height: aspect(500px);
 }
+
+// Number stored in $size, @if statement, @else statement
+$size: 18px;
+
+.switch {
+  font-size: $size;
+  @if $size <= 16px {
+    font-family: Arial, sans-serif;
+  }
+	@else {
+  	font-family: Helvetica, sans-serif;
+  }
+}
