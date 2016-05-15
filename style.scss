@@ -63,3 +63,15 @@ $tools: socket wrench bolt;
     background: url('#{$tool}.png') no-repeat;
     }
   }
+
+// Function, argument, return, formula, set value to function with width 500px
+
+@function aspect($width) {
+  @return $width * 9 / 16;
+}
+
+.intro {
+  background: #000;
+  width: 500px;
+  height: aspect(500px);
+}
