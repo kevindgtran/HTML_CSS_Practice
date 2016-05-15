@@ -184,3 +184,15 @@ $size: 3.75em;
     font-size: round($size / 2);
   }
 }
+
+//MAKING ELEMENTS RESPONSIVE, arimatic and percentage()
+$context: 960px;
+
+.factory {
+  background: #fff;
+  width: percentage(600px/$context);
+}
+.highrise {
+  background: #797979;
+  width: percentage(300px/$context);
+}
