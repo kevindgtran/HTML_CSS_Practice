@@ -196,3 +196,66 @@ $context: 960px;
   background: #797979;
   width: percentage(300px/$context);
 }
+
+//MAKING ELEMENTS RESPONSIVE, arimatic and percentage()
+$context: 960px;
+
+.factory {
+  background: #fff;
+  width: percentage(600px/$context);
+}
+.highrise {
+  background: #797979;
+  width: percentage(300px/$context);
+}
+
+//adding nested hover state, lighten'ing color properties
+$color-link: #3097b4;
+
+a {
+  color: $color-link;
+  text-decoration: underline;
+  &:hover {
+    color: lighten($color-link, 25%);
+	}
+}
+
+//Media query, respond-to mixin, @else if, min width, @content
+@mixin respond-to($media) {
+  @if $media == desktop {
+    @media (min-width: 960px) {
+      @content;
+      }
+    }@else if $media == tablet {
+    @media (min-width: 768px) {
+      @content;
+      }
+    }
+  }
+
+.factory {
+  width: 100%;
+  @include respond-to(desktop) {
+    width: percentage(600px / 960px);
+  }
+  @include respond-to(tablet) {
+    width: 50%;
+  }
+}
+
+//Default values for arguments
+@mixin respond-to($type:min-width, $query:960px) {
+  @media ($type: $query) {
+    @content;
+  }
+}
+
+.factory {
+  width: 100%;
+  @include respond-to {
+    width: percentage(600px / 960px);
+  }
+  @include respond-to(max-width, 768px) {
+    width: 50%;
+  }
+}
